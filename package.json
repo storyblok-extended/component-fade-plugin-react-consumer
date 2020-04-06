@@ -1,10 +1,10 @@
 {
-  "name": "@amazzzing/test-component-from-boilerplate",
-  "version": "0.0.8",
+  "name": "component-fade-plugin-react-consumer",
+  "version": "0.0.2",
   "description": "Made with create-react-library",
   "author": "marckraw",
   "license": "MIT",
-  "repository": "marckraw/create-react-library-boilerplate",
+  "repository": "storyblok-extended/component-fade-plugin-react-consumer",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
