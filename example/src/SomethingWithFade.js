@@ -1,5 +1,5 @@
 import React from "react";
-import { withFade } from "create-react-library-boilerplate";
+import { withFade } from "component-fade-plugin-react-consumer";
 
 const SomethingWithFade = (props) => {
     console.log("propsy");

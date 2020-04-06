@@ -1,7 +1,7 @@
 import React from "react";
 
 import SomethingWithFade from "./SomethingWithFade";
-import "create-react-library-boilerplate/dist/index.css";
+import "component-fade-plugin-react-consumer/dist/index.css";
 
 const App = () => {
   return (
