@@ -1,13 +1,13 @@
 {
-  "name": "create-react-library-boilerplate-example",
-  "homepage": "https://marckraw.github.io/create-react-library-boilerplate",
+  "name": "component-fade-plugin-react-consumer-example",
+  "homepage": "https://marckraw.github.io/component-fade-plugin-react-consumer",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
-    "create-react-library-boilerplate": "file:.."
+    "component-fade-plugin-react-consumer": "file:.."
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",

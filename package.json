@@ -1,10 +1,10 @@
 {
-  "name": "component-fade-plugin-react-consumer",
+  "name": "component-fade-plugin-consumer",
   "version": "0.0.3",
-  "description": "Made with create-react-library",
+  "description": "React consumer component for Storyglok fade plugin",
   "author": "marckraw",
   "license": "MIT",
-  "repository": "storyblok-extended/component-fade-plugin-react-consumer",
+  "repository": "storyblok-extended/component-fade-plugin-consumer",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
