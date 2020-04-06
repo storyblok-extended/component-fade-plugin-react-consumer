@@ -1,0 +1,17 @@
+:root {
+  --transition-property: opacity;
+  --transition-duration: 3000ms;
+  --transition-delay: 1000ms;
+  --transition-timing-function: ease;
+}
+
+.before-fade {
+  opacity: 0;
+  transform: translate3d(0,40px,0);
+  transition: transform var(--transition-duration) var(--transition-timing-function) var(--transition-delay) , var(--transition-property) var(--transition-duration) var(--transition-timing-function) var(--transition-delay);
+}
+
+.after-fade {
+  transform: translate3d(0,0,0);
+  opacity: 1;
+}
