@@ -52,7 +52,12 @@ outl
 export const withFade = WrappedComponent => options => {
   const isIE = true;
   if (isIE) {
-    return props => <WrappedComponent {...props} />;
+    return props => (
+      <WrappedComponent
+        {...props}
+        withFadeStyle={{ transition: "none", transform: "none", opacity: "1" }}
+      />
+    );
   } else {
     return props => {
       // early return
