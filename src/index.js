@@ -50,7 +50,7 @@ outl
 */
 
 export const withFade = WrappedComponent => options => {
-  const isIE = false;
+  const isIE = true;
   if (isIE) {
     return props => <WrappedComponent {...props} />;
   } else {
