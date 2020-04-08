@@ -1,6 +1,6 @@
 {
   "name": "component-fade-plugin-react-consumer",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React consumer component for Storyglok fade plugin",
   "author": "marckraw",
   "license": "MIT",
