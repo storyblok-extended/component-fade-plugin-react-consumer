@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 import get from "lodash/get";
 // eslint-disable-next-line import/no-unresolved
 import classNames from "classnames";
-// import { isIE } from "react-device-detect";
+import { isIE } from "react-device-detect";
 
 /*
     Documentation:
@@ -50,7 +50,6 @@ outl
 */
 
 export const withFade = WrappedComponent => options => {
-  const isIE = true;
   if (isIE) {
     return props => (
       <WrappedComponent
