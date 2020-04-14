@@ -50,7 +50,7 @@ outl
 
 export const withFade = WrappedComponent => options => {
   // early return for ie11 being weakest thing on earth
-  if (window !== undefined) {
+  if (typeof window !== `undefined`) {
     if (window && window.navigator.userAgent.indexOf("Trident") !== -1) {
       return props => {
         return (
